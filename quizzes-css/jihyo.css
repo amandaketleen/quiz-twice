@@ -39,7 +39,7 @@ a {
     text-decoration: none;
     font-size: 25px !important;
     margin-right: 300px;
-    font-family: cursive;
+    font-family: "Roboto", sans-serif;
     transition: 0.2s;
   
 }

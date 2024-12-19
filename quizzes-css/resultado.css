@@ -18,7 +18,7 @@ body {
 
 /* Ajuste para título */
 h1 {
-    font-family: cursive;
+    font-family: "Roboto", sans-serif;
     margin: 0; /* Remove margens extras */
     font-size: 2rem; /* Ajusta o tamanho da fonte */
     margin-top: 4%;
@@ -56,7 +56,7 @@ a:hover {
 #imagemResultado {
     display: block;
     margin: 10px auto;
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
 }
 
