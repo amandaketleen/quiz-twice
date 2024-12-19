@@ -11,15 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
         if (pontuacao <= 6) {
             document.getElementById('pontuacao').innerHTML = `Você acertou ${pontuacao}/10! </br> Sana ficou tristinha.`;
            
-            imagemResultado.src = "/img/sana-gif1.gif";  // Caminho correto
+            imagemResultado.src = "../img/sana-gif1.gif";  // Caminho correto
             imagemResultado.style.display = "block";
         } else if (pontuacao > 6 && pontuacao <= 9) {
             document.getElementById('pontuacao').innerHTML = `Você acertou ${pontuacao}/10! </br> Parabéns!`;
-            imagemResultado.src = "/img/sana-gif2.gif";  // Substitua pelo caminho da imagem feliz
+            imagemResultado.src = "../img/sana-gif2.gif";  // Substitua pelo caminho da imagem feliz
             imagemResultado.style.display = "block";
         } else if (pontuacao == 10) {
             document.getElementById('pontuacao').innerHTML = `Você acertou ${pontuacao}/10! </br> UAU, você é um ótimo fã da Shyshy!`;
-            imagemResultado.src = "/img/sana-gif3.gif";  // Caminho para imagem especial
+            imagemResultado.src = "../img/sana-gif3.gif";  // Caminho para imagem especial
             imagemResultado.style.display = "block";
         }
 
