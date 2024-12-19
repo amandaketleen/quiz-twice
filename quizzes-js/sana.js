@@ -34,17 +34,19 @@ document.getElementById("quiz-sana").onsubmit = function (event) {
     event.preventDefault();
     var pontuacao = 0;
 
-
-//comparando as respostas do usuário com o gabarito
-for (var i = 1; i <=10; i++) {
-    if (respostasUsuario[i] === gabarito[i]) {
-        pontuacao++;
+    // Verificando se o usuário respondeu a todas as perguntas
+    for (var i = 1; i <= 10; i++) {
+        if (respostasUsuario[i] === undefined) {
+            alert(`Por favor, responda todas as perguntas.`);
+            return; // Não continua o cálculo se não respondeu a todas
+        }
+        if (respostasUsuario[i] === gabarito[i]) {
+            pontuacao++;
+        }
     }
-}
 
-//exibindo o resultado 
-
-localStorage.setItem('pontuacaoQuiz', pontuacao);
+    // Exibindo o resultado
+    localStorage.setItem('pontuacaoQuiz', pontuacao);
 window.location.href = 'sanaresul.html';
 
 
