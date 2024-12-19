@@ -1,6 +1,8 @@
-* {
-    padding: 0;
-    margin: 0;
+*,
+*::before,
+*::after {
+    box-sizing: border-box !important;
+    font-size: 20px !important; 
 }
 
 
@@ -19,7 +21,7 @@ header {
 
 h1 {
     font-family: "Protest Revolution", sans-serif;
-    font-size: 50px;
+    font-size: 35px !important;
     color:#770668;
     margin-left: 10%;
    
@@ -34,11 +36,10 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px !important;
     margin-right: 300px;
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     transition: 0.2s;
-  
 }
 
 a:hover {
@@ -62,7 +63,7 @@ h3 {
     width: 100%; 
     max-width: 250px; 
     padding: 15px 0; 
-    font-size: 18px;
+    font-size: 14px !important;
     font-family: "Ubuntu", sans-serif;
   font-weight: 500;
  
@@ -91,7 +92,7 @@ h3 {
     padding: 20px;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 13px !important;
     font-family:"Roboto", sans-serif;
     background-color: #4d0463;
     color: #efd4ff;
@@ -146,14 +147,15 @@ h3 {
         display: flex;
         margin-left: 40%;
         font-size: 25px;
+        margin-top: 3%;
     }
 
     h3 {
         font-size: 20px;
     }
 
-    .logo-jihyo {
-        width: 120px; 
+    .logo-dahyun {
+        width: 200px; 
     }
  
     .resposta {
