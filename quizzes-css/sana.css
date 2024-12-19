@@ -16,6 +16,7 @@ header {
 .logo-sana {
     width: 250px;
     margin-right: 20%;
+    margin-bottom: 3%;
     
 }
 
@@ -147,14 +148,17 @@ h3 {
         display: flex;
         margin-left: 40%;
         font-size: 25px;
+        margin-top: 3%;
     }
 
     h3 {
         font-size: 20px;
     }
 
-    .logo-jihyo {
-        width: 120px; 
+    .logo-sana {
+        width: 200px; 
+        margin-bottom: 3%;
+
     }
  
     .resposta {
