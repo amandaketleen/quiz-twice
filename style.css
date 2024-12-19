@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #f9b5ff, #680960);
+  margin-bottom: 5%;
+    }
+
+ h2 {
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1a0017;
+ }
+
+ .twice-logo1 {
+    width: 200px;
+    height: 100px;
+    padding: 10px 30px;
+
+ }
+
+.cabecalho {
+    padding: 65px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9e0954;
+    font-size: 35px;
+    padding-left: 13%;
+    display: flex;                /* Usar flexbox para alinhar os elementos lado a lado */
+    justify-content: space-between; /* Espaça o título e a imagem para as extremidades */
+    align-items: center; /* Alinha verticalmente os itens */
+    
+}
+
+.twice-logo2 {
+    width: 400px;
+    height: 310px;
+   margin-right: 90px;
+   
+}
+
+.twice-logo3 {
+    width: 180px;
+    height: 180px;
+    margin-right: 10%;
+}
+
+
+.quiz-selection {
+    display: flex; /* Usando flexbox para alinhar os botões */
+    flex-direction: column; /* Coloca os botões um embaixo do outro */
+    justify-content: center; /* Alinha os botões verticalmente */
+    align-items: center; /* Centraliza os botões horizontalmente */
+}
+
+
+
+.botao {
+
+    display: inline-flex; /* Usar inline-flex para garantir que o botão seja contido no conteúdo */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    font-size: 22px;
+    margin: 10px 0;
+    padding: 10px 25px; /* Ajuste do padding para controlar o espaço dentro do botão */
+ color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid #fa5cc5;
+        background-color: #ca0478cc;
+    transition: 0.3s;
+
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+.botao:hover {
+    border: #a740a0;
+ background-color: #680960;
+
+}
+
+/*responsividade*/
+
+@media (max-width: 1024px) {
+
+
+    .cabecalho {
+        padding-right: 30%;
+        flex-direction: column; /* Torna o cabeçalho vertical em telas menores */
+        align-items: center; /* Centraliza os elementos */
+    }
+
+    .twice-logo2 {
+        width: 500px; /* Ajusta o tamanho da logo */
+        height: 400px; /* Garante que a altura seja proporcional */
+        margin-left: 150px;
+        margin-bottom: 15px; /* Dá uma margem inferior para o logo */
+    }
+
+    .twice-logo3 {
+        display: none;
+    }
+
+    .quiz-selection {
+        flex-direction: column;
+    }
+
+    .botao {
+        font-size: 20px; /* Diminui o tamanho da fonte dos botões */
+        padding: 8px 40px; /* Ajusta o padding */
+        width: 80%; /* Os botões ocupam 80% da largura da tela */
+    }
+}
+
+/* Responsividade para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px; /* Diminui o tamanho do título */
+        padding: 20px; /* Reduz o padding */
+    }
+
+    .cabecalho {
+        padding-left: 0;
+        padding-right: 10%;
+    }
+
+    .twice-logo1 {
+        width: 150px; /* Ajusta o tamanho da primeira logo */
+        height: auto;
+    }
+
+    .twice-logo2 {
+        width: 250px; /* Ajusta o tamanho da segunda logo */
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+
+    .botao {
+        font-size: 16px; /* Diminui ainda mais o tamanho da fonte dos botões */
+        padding: 10px 30px; /* Ajusta o padding */
+        margin-left: 30px;
+        
+    }
+}
+
+

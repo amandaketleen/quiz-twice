@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIVINHA QUIZ</title>
+    <link rel="stylesheet" href="/quizzes-css/adivinha.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a class="menu" href="../index.html">Menu inicial</a>
+            </nav>
+            <h1>Adivinhe a Música pela Imagem</h1>
+        </header>
+        
+        <div class="quiz">
+            <div class="image">
+                <img id="musicImage" src="/img/alcohol-free.jpg" alt="Imagem representativa" />
+            </div>
+
+            <div class="options" id="options">
+                <!-- Respostas serão carregadas aqui via JavaScript -->
+            </div>
+            
+            <div id="result"></div>
+
+            <button class="btn" onclick="nextQuestion()">Próxima Pergunta</button>
+        </div>
+    </div>
+    <script src="/quizzes-js/adivinha.js"></script>
+</body>
+</html>

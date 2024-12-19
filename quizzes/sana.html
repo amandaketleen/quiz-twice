@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANA QUIZ</title>
+    <link rel="stylesheet" href="/quizzes-css/sana.css">
+    <link rel="stylesheet" href="/fontes.css">
+</head>
+<body>
+    <body>
+        <header>
+            <h1>Sana QUIZ</h1>
+            <img class="logo-sana" src="/img/sana-logo.png" alt="logo Sana">
+            <nav>
+                <a class="menu" href="../index.html">Menu inicial</a>
+            </nav>
+        </header>
+    
+        <main class="principal"> 
+           
+         <form id="quiz-sana">
+            
+           
+        <!--Pergunta 1-->
+        
+        <div class="container-pergunta">
+            <h3>1. Quantos anos Sana tinha quando o Twice debutou?</h3>
+          
+        </div>
+        <div class="pergunta">
+            <button type="button" class="resposta" data-pergunta="1" onclick="selecionarResposta(1, '15 anos', this)">15 anos</button><br>
+            <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '16 anos', this)">16 anos</button><br>
+            <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '17 anos', this)">17 anos</button><br>
+            <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '18 anos', this)">18 anos</button><br>
+            <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '19 anos', this)">19 anos</button><br>
+        </div>
+        <!--Resposta: 18 anos-->
+    
+    
+       <!--Pergunta 2-->
+       
+       <h3>2. Sana quase vazou o número de uma das membros do grupo, quem era?</h3>
+       <div class="pergunta">
+       <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, 'Jihyo', this)">Jihyo</button><br>
+       <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, 'Nayeon', this)">Nayeon</button><br>
+       <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, 'Tzuyu', this)">Tzuyu</button><br>
+       <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, 'Mina', this)">Mina</button><br>
+       <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, 'Momo', this)">Momo</button><br>
+    </div>
+    <!--Resposta: Jihyo-->
+    
+    <!--Pergunta 3-->
+    
+    
+    <h3>3. Qual gênero de filme favorito da Sana?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Romance', this)">Romance</button><br>
+    <button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Comédia', this)">Comédia</button><br>
+    <button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Terror', this)">Terror</button><br>
+    <button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Fantasia', this)">Fantasia</button><br>
+    <button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Drama', this)">Drama</button><br>
+    </div>
+    
+    <!--Resposta: Terror-->
+    
+    <!--Pergunta 4-->
+    
+    
+    <h3>4. Qual a fruta favorita dela?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Uva', this)">Uva</button><br>
+    <button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Maçã', this)">Maçã</button><br>
+    <button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Morango', this)">Morango</button><br>
+    <button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Manga', this)">Manga</button><br>
+    <button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Framboesa', this)">Framboesa</button><br>
+    </div>
+    
+    <!--Resposta: Framboesa-->
+    
+    <!--Pergunta 5-->
+    
+    <h3>5. Qual o maior medo de Sana?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Escuro', this)">Escuro</button><br>
+    <button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Altura', this)">Altura</button><br>
+    <button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Terremoto', this)">Terremoto</button><br>
+    <button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Trovões', this)">Trovões</button><br>
+    <button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Morrer', this)">Morrer</button><br>
+    </div>
+    
+    <!--Resposta: Trovões-->
+    
+    <!--Pergunta 6-->
+    
+    <h3>6. Qual a cor representativa dela?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Azul'), this">Azul</button><br>
+    <button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Vermelho', this)">Vermelho</button><br>
+    <button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Branco', this)">Branco</button><br>
+    <button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Roxo', this)">Roxo</button><br>
+    <button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Rosa', this)">Rosa</button><br>
+    </div>
+    
+    <!--Resposta: Roxo-->
+    
+    <!--Pergunta 7-->
+    
+    <h3>7. Qual a nacionalidade da Sana?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Coreana', this)">Coreana</button><br>
+    <button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Norte americana', this)">Norte americana</button><br>
+    <button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Tailandesa', this)">Tailandesa</button><br>
+    <button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Japonesa', this)">Japonesa</button><br>
+    <button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Chinesa', this)">Chinesa</button><br>
+    </div>
+    
+    <!--Resposta: Japonesa-->
+    
+    <!--Pergunta 8-->
+    
+    <h3>8. Qual seu tipo de comida favorita?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Baião de dois :p', this)">Baião de dois :p</button><br>
+    <button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Arroz doce', this)">Arroz doce</button><br>
+    <button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Comida picante', this)">Comida picante</button><br>
+    <button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Comida vegana', this)">Comida vegana</button><br>
+    <button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Omelete', this)">Omelete</button><br>
+    </div>
+    
+    <!--Resposta: Comida picante-->
+    
+    <!--Pergunta 9-->
+    
+    <h3>9. Sana adora colecionar, que tipo de coisa ela coleciona?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Perfumes', this)">Perfumes</button><br>
+    <button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Sapatos', this)">Sapatos</button><br>
+    <button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Photocards', this)">Photocards</button><br>
+    <button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Mangás', this)">Mangás</button><br>
+    <button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Perucas', this)">Perucas</button><br>
+    </div>
+    
+    <!--Resposta: Perfumes-->
+    
+    <!--Pergunta 10-->
+    
+    <h3>10. Qual o nome do Lovely dela?</h3>
+    <div class="pergunta">
+    <button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Shasha', this)">Shasha</button><br>
+    <button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Sanely', this)">Sanely</button><br>
+    <button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Savely', this)">Savely</button><br>
+    <button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Shyvely', this)">Shyvely</button><br>
+    <button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Snvely', this)">Snvely</button><br>
+    </div>
+    
+    <!--Resposta: Savely-->
+    
+        <button type="submit" class="botao">Enviar Respostas</button>
+    
+    </form>
+    <div id="resultado"></div>
+    </main>
+    
+    <script src="/quizzes-js/sana.js"></script>
+    </body>
+    </html>
+</body>
+</html>

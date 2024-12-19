@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIHYO Quiz</title>
+    <link rel="stylesheet" href="/quizzes-css/jihyo.css">
+    <link rel="stylesheet" href="/fontes.css">
+</head>
+<body>
+    <header>
+        <h1>Jihyo QUIZ</h1>
+        <img class="logo-jihyo" src="/img/jihyo-logo.png" alt="logo Jihyo">
+        <nav>
+            <a class="menu" href="../index.html">Menu inicial</a>
+        </nav>
+    </header>
+
+    <main class="principal"> 
+       
+     <form id="quiz-jihyo">
+        
+       
+    <!--Pergunta 1-->
+    
+    <div class="container-pergunta">
+        <h3>1. Em qual ano Jihyo nasceu?</h3>
+      
+    </div>
+    <div class="pergunta">
+        <button type="button" class="resposta" data-pergunta="1" onclick="selecionarResposta(1, '1995', this)">1995</button><br>
+        <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '1996', this)">1996</button><br>
+        <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '1997', this)">1997</button><br>
+        <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '1998', this)">1998</button><br>
+        <button type="button" class="resposta" data-pergunta="1"  onclick="selecionarResposta(1, '1999', this)">1999</button><br>
+    </div>
+    <!--Resposta: 1997-->
+
+
+   <!--Pergunta 2-->
+   
+   <h3>2. Jihyo foi trainee durante quantos anos?</h3>
+   <div class="pergunta">
+   <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, '6 anos', this)">6 anos</button><br>
+   <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, '7 anos', this)">7 anos</button><br>
+   <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, '3 anos', this)">3 anos</button><br>
+   <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, '10 anos', this)">10 anos</button><br>
+   <button type="button" class="resposta" data-pergunta="2" onclick="selecionarResposta(2, '8 anos', this)">8 anos</button><br>
+</div>
+<!--Resposta: 10 anos-->
+
+<!--Pergunta 3-->
+
+
+<h3>3. Qual a cor representativa de Jihyo?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Amarelo', this)">Amarelo</button><br>
+<button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Rosa', this)">Rosa</button><br>
+<button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Azul', this)">Azul</button><br>
+<button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Roxo', this)">Roxo</button><br>
+<button type="button" class="resposta" data-pergunta="3" onclick="selecionarResposta(3, 'Laranja', this)">Laranja</button><br>
+</div>
+
+<!--Resposta: Amarelo-->
+
+<!--Pergunta 4-->
+
+
+<h3>4. Qual a posição da Jihyo no twice?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Main Dancer', this)">Main Dancer</button><br>
+<button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Visual/Líder', this)">Visual/Líder</button><br>
+<button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Líder/Main Vocalist', this)">Líder/Main Vocalist</button><br>
+<button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Visual', this)">Visual</button><br>
+<button type="button" class="resposta" data-pergunta="4" onclick="selecionarResposta(4, 'Apenas Líder', this)">Apenas Líder</button><br>
+</div>
+
+<!--Resposta: Líder/Main Vocalist-->
+
+<!--Pergunta 5-->
+
+<h3>5. O nome de Jihyo foi alterado um pouco antes do SIXTEEN, qual era seu nome verdadeiro?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Chaeyoung', this)">Chaeyoung</button><br>
+<button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Kim Soyeoon', this)">Kim Soyeoon</button><br>
+<button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Park Jisoo', this)">Park Jisoo</button><br>
+<button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Kim Haeyun', this)">Kim Haeyun</button><br>
+<button type="button" class="resposta" data-pergunta="5" onclick="selecionarResposta(5, 'Lookmhee', this)">Lookmhee</button><br>
+</div>
+
+<!--Resposta: Park Jisoo-->
+
+<!--Pergunta 6-->
+
+<h3>6. Qual o país que a Jihyo mais gostou durante a tour RTB?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'EUA'), this">EUA</button><br>
+<button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'França', this)">França</button><br>
+<button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Brasil', this)">Brasil</button><br>
+<button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'Japão', this)">Japão</button><br>
+<button type="button" class="resposta" data-pergunta="6" onclick="selecionarResposta(6, 'México', this)">México</button><br>
+</div>
+
+<!--Resposta: Vermelho-->
+
+<!--Pergunta 7-->
+
+<h3>7. Qual o lema de Jihyo?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Pense Positivo', this)">Pense Positivo</button><br>
+<button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Hoje é o amanhã de ontem', this)">Hoje é o amanhã de ontem</button><br>
+<button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Slay', this)">Slay</button><br>
+<button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Agradeça', this)">Agradeça</button><br>
+<button type="button" class="resposta" data-pergunta="7" onclick="selecionarResposta(7, 'Jihyo não gosta de lemas', this)">Jihyo não gosta de lemas</button><br>
+</div>
+
+<!--Resposta: Pense positivo-->
+
+<!--Pergunta 8-->
+
+<h3>8. Qual seu estilo de música favorito?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Sad', this)">Sad</button><br>
+<button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Rap', this)">Rap</button><br>
+<button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Lofi', this)">Lofi</button><br>
+<button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Indie', this)">Indie</button><br>
+<button type="button" class="resposta" data-pergunta="8" onclick="selecionarResposta(8, 'Funk', this)">Funk</button><br>
+</div>
+
+<!--Resposta: Sad-->
+
+<!--Pergunta 9-->
+
+<h3>9. Jihyo divide quarto com quais membros?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Momo e Dahyun', this)">Momo e Dahyun</button><br>
+<button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Jeongyeon/Sana/Momo', this)">Jeongyeon/Sana/Momo</button><br>
+<button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Nayeon/Sana/Mina', this)">Nayeon/Sana/Mina</button><br>
+<button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Tzuyu e Chaeyoung', this)">Tzuyu e Chaeyoung</button><br>
+<button type="button" class="resposta" data-pergunta="9" onclick="selecionarResposta(9, 'Sana e Dahyun', this)">Sana e Dahyun</button><br>
+</div>
+
+<!--Resposta: Nayeon/Sana/Mina-->
+
+<!--Pergunta 10-->
+
+<h3>10. Qual a nacionalidade de Jihyo?</h3>
+<div class="pergunta">
+<button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Chinesa', this)">Chinesa</button><br>
+<button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Japonesa', this)">Japonesa</button><br>
+<button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Norte americana', this)">Norte americana</button><br>
+<button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Tailandesa', this)">Tailandesa</button><br>
+<button type="button" class="resposta" data-pergunta="10" onclick="selecionarResposta(10, 'Coreana', this)">Coreana</button><br>
+</div>
+
+<!--Resposta: Coreana-->
+
+    <button type="submit" class="botao">Enviar Respostas</button>
+
+</form>
+<div id="resultado"></div>
+</main>
+
+<script src="/quizzes-js/jihyo.js"></script>
+</body>
+</html>

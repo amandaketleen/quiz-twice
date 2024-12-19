@@ -1,0 +1,232 @@
+
+
+body {
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(#cc74ff, #67168d);
+    
+    height: 100%; /* Faz com que o body ocupe toda a altura da tela */
+    min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+   
+    display: flex; /* Usar flexbox para centralizar os itens */
+    flex-direction: column; /* Alinha os itens de forma vertical */
+    align-items: center; /* Alinha os itens no centro */
+    padding: 0; /* Remove qualquer espaçamento indesejado */
+}
+
+header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: "Protest Revolution", sans-serif;
+    color:#4d0243;
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 30px;
+   
+}
+
+.menu:hover {
+    color: #4d0243;
+}
+
+/* Estiliza a área das opções para ser mais responsiva */
+#options {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 20px 50px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #e5abff;
+    border: 1px solid #663399;
+}
+
+button:hover {
+    background-color: #67168d;
+    color: white;
+    border: 1px solid #cb5cff;
+}
+
+#musicImage {
+    width: 100%; /* Responsivo: faz com que a imagem ocupe 100% da largura disponível */
+    max-width: 500px; /* Define um tamanho máximo */
+    border-radius: 20px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 20px;
+    width: 60%;
+    background-color: #4d0243;
+    border: 1px solid #991487;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #991487;
+}
+
+@media (max-width: 1025px) {
+  /* Ajusta a posição do menu em telas menores */
+  .menu {
+    font-size: 70px;
+    
+}
+
+/* Ajusta o tamanho do botão */
+.btn {
+    width: 40%;
+    font-size: 15px;
+}
+
+/* Faz a imagem se ajustar na tela */
+#musicImage {
+    width: 80%; /* Responsivo: faz a imagem ocupar 90% da tela */
+    max-width: 100%;
+}
+}
+
+/* Media queries para ajustar o layout em telas pequenas */
+@media (max-width: 768px) {
+   
+    /* Ajusta a posição do menu em telas menores */
+    .menu {
+        font-size: 30px;
+        
+    }
+
+    /* Ajusta o tamanho do botão */
+    .btn {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    /* Faz a imagem se ajustar na tela */
+    #musicImage {
+        width: 80%; /* Responsivo: faz a imagem ocupar 90% da tela */
+        max-width: 100%;
+    }
+
+    button {
+        font-size: 16px; /* Ajusta o tamanho da fonte dos botões */
+        padding: 15px 30px;
+    }
+
+    header h1 {
+        font-size: 24px; /* Ajusta o tamanho da fonte no título */
+    }
+}
+
+@media (max-width: 480px) {
+    
+
+    /* Ajustes adicionais para telas muito pequenas */
+    header {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    /* Ajusta o botão para que tenha um tamanho maior em telas menores */
+    .btn {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    /* Ajusta o tamanho da imagem */
+    #musicImage {
+        width: 80%;
+       
+    }
+
+    /* Ajusta o espaçamento do menu */
+    .menu {
+        font-size: 18px;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 430px) {
+
+
+    /* Ajustes adicionais para telas muito pequenas */
+    header {
+       font-size: 5px;
+    }
+
+   
+
+    button {
+        width: 70%;
+    }
+
+    /* Ajusta o botão para que tenha um tamanho maior em telas menores */
+    .btn {
+        width: 50%;
+        font-size: 13px;
+    }
+
+    /* Ajusta o tamanho da imagem */
+    #musicImage {
+        width: 80%;
+       
+    }
+
+    /* Ajusta o espaçamento do menu */
+    .menu {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+
+
+}
+
+/* Ajusta o layout para telas menores (por exemplo, Galaxy S5) */
+@media (max-width: 380px) {
+    body {
+        padding: 0 10px; /* Deixa um espaço na borda para não tocar o fundo da tela */
+    }
+
+    /* Ajusta o título */
+    header h1 {
+        font-size: 18px; /* Menor tamanho de fonte em dispositivos pequenos */
+    }
+
+    button {
+        font-size: 14px;
+        width: 70%;
+    }
+
+
+    /* Ajusta o botão para caber em telas pequenas */
+    .btn {
+        width: 50%;
+        padding: 15px 0;
+    }
+
+    /* Ajusta a largura da imagem */
+    #musicImage {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Ajusta a barra de menu */
+    .menu {
+        font-size: 18px;
+        margin-left: 10%; /* Ajusta a margem para dispositivos menores */
+    }
+}

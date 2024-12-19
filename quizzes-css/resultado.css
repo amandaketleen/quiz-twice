@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #cf88ff, #610169);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o conteúdo no topo em vez de centralizado */
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajuste para título */
+h1 {
+    font-family: cursive;
+    margin: 0; /* Remove margens extras */
+    font-size: 2rem; /* Ajusta o tamanho da fonte */
+    margin-top: 4%;
+    color: #610169;
+}
+
+/* Ajuste para resultado */
+#resultado {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 40px; /* Reduz o espaço inferior */
+    color: #efcffc;
+}
+
+/* Botão */
+a {
+    background-color: #c50646;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+a:hover {
+    background-color: #f082f0;
+}
+
+/* Imagem */
+#imagemResultado {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 2%;
+    }
+
+    #resultado {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    a {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    #imagemResultado {
+        width: 80%;
+    }
+}
+
+/* Responsividade para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 4%;
+    }
+
+    #resultado {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    a {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    #imagemResultado {
+        width: 90%;
+        margin-top: 30%;
+    }
+}
