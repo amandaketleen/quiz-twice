@@ -7,151 +7,151 @@ let score = 0;  // Inicializa a pontuação
 
 const questions = [
     {
-        image: "/img/set-me-free.jpg",  // Caminho da imagem para a primeira pergunta
+        image: "../img/set-me-free.jpg",  // Caminho da imagem para a primeira pergunta
         options: ["Moonlight Sunrise", "Talk That Talk", "Set me free", "Do not touch"],  // Alternativas da primeira pergunta
         correctAnswer: "Set me free"  // Resposta correta da primeira pergunta
     },
     {
-        image: "/img/feel-special.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/feel-special.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Fancy", "Feel special", "What is love", "Likey"],  // Alternativas da segunda pergunta
         correctAnswer: "Feel special"  // Resposta correta da segunda pergunta
     },
     {
-        image: "/img/like-ohh-ahh.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/like-ohh-ahh.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Like ohh ahh", "TT", "Knock Knock", "Get Loud"],  // Alternativas da segunda pergunta
         correctAnswer: "Like ohh ahh" 
     
     },
     {
        
-        image: "/img/i-cant-stop-me.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/i-cant-stop-me.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["More & More", "Better", "Talk That Talk", "I can't stop me"],  // Alternativas da segunda pergunta
         correctAnswer: "I can't stop me" 
     
     },
     {
-        image: "/img/strategy.png",  // Caminho da imagem para a segunda pergunta
+        image: "../img/strategy.png",  // Caminho da imagem para a segunda pergunta
         options: ["Strategy", "Dive", "Mamushi(remix)", "BDZ"],  // Alternativas da segunda pergunta
         correctAnswer: "Strategy" 
     
     },
     {
-        image: "/img/talk-that-talk.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/talk-that-talk.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Fancy", "The feels", "Talk That Talk", "Scientist"],  // Alternativas da segunda pergunta
         correctAnswer: "Talk That Talk" 
     
     },
     {
-        image: "/img/the-feels.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/the-feels.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["The feels", "Kura Kura", "Cheer up", "Moonlight Sunrise"],  // Alternativas da segunda pergunta
         correctAnswer: "The feels" 
     
     },
     {
-        image: "/img/tt.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/tt.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Signal", "What is love", "Likey", "TT"],  // Alternativas da segunda pergunta
         correctAnswer: "TT" 
     
     },
     {
-        image: "/img/alcohol-free.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/alcohol-free.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Dance the night away", "Alcohol free", "Celebrate", "Happy Happy"],  // Alternativas da segunda pergunta
         correctAnswer: "Alcohol free" 
     
     },
     {
-        image: "/img/doughnut.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/doughnut.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Doughnut", "Dive", "Kura Kura", "Merry & Happy"],  // Alternativas da segunda pergunta
         correctAnswer: "Doughnut" 
     
     },
     {
-        image: "/img/cheer-up.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/cheer-up.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Signal", "What is love", "Cheer up", "Candy pop"],  // Alternativas da segunda pergunta
         correctAnswer: "Cheer up" 
     
     },
 
     {
-        image: "/img/do not touch.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/do not touch.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Identity", "Do not touch", "Funny valentine", "Cry for me"],  // Alternativas da segunda pergunta
         correctAnswer: "Do not touch" 
     
     },
     {
-        image: "/img/fancy.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/fancy.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Fancy", "More & More", "Candy pop", "Yes or Yes"],  // Alternativas da segunda pergunta
         correctAnswer: "Fancy" 
     
     },
     {
-        image: "/img/go-hard.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/go-hard.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Go Hard", "Get Loud", "Hare Hare", "Perfect World"],  // Alternativas da segunda pergunta
         correctAnswer: "Go Hard" 
     
     },
     {
-        image: "/img/killing-me-good.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/killing-me-good.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Closer", "BDZ", "Fanfare", "Killing me good"],  // Alternativas da segunda pergunta
         correctAnswer: "Killing me good" 
     
     },
     {
-        image: "/img/i-got-you.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/i-got-you.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["I got you", "One spark", "Dance the night away", "Wake me up"],  // Alternativas da segunda pergunta
         correctAnswer: "I got you" 
     
     },
     {
-        image: "/img/knock-knock.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/knock-knock.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["TT", "What is love", "Knock Knock", "Signal"],  // Alternativas da segunda pergunta
         correctAnswer: "Knock Knock" 
     
     },
     {
-        image: "/img/likey.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/likey.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Happy Happy", "Likey", "Pop", "One more time"],  // Alternativas da segunda pergunta
         correctAnswer: "Likey" 
     
     },
     {
-        image: "/img/monlight-sunrise.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/monlight-sunrise.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Scientist", "The feels", "Moonlight Sunrise", "One Spark"],  // Alternativas da segunda pergunta
         correctAnswer: "Moonlight Sunrise" 
     
     },
     {
-        image: "/img/more&more.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/more&more.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Hare Hare", "Dive", "Kura Kura", "More & More"],  // Alternativas da segunda pergunta
         correctAnswer: "More & More" 
     
     },
     {
-        image: "/img/perfect-world.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/perfect-world.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Go Hard", "Better", "Perfect world", "Yes or Yes"],  // Alternativas da segunda pergunta
         correctAnswer: "Perfect world" 
     
     },
     {
-        image: "/img/pop.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/pop.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Fancy", "Pop", "Cheer up", "Fake & True"],  // Alternativas da segunda pergunta
         correctAnswer: "Pop" 
     
     },
     {
-        image: "/img/scientist.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/scientist.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Scientist", "The feels", "Fanfare", "Alcohol free"],  // Alternativas da segunda pergunta
         correctAnswer: "Scientist" 
     
     },
     {
-        image: "/img/what-is-love.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/what-is-love.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["BDZ", "What is love", "Cheer up", "One more time"],  // Alternativas da segunda pergunta
         correctAnswer: "What is love" 
     
     },
     {
-        image: "/img/yes-or-yes.jpg",  // Caminho da imagem para a segunda pergunta
+        image: "../img/yes-or-yes.jpg",  // Caminho da imagem para a segunda pergunta
         options: ["Breakthrough", "Better", "Yes or Yes", "Signal"],  // Alternativas da segunda pergunta
         correctAnswer: "Yes or Yes" 
     
