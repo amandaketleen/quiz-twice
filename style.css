@@ -62,6 +62,7 @@ body {
     flex-direction: column; /* Coloca os botões um embaixo do outro */
     justify-content: center; /* Alinha os botões verticalmente */
     align-items: center; /* Centraliza os botões horizontalmente */
+    text-decoration: none;
 }
 
 
