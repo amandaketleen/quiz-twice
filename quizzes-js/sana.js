@@ -50,5 +50,5 @@ document.getElementById("quiz-sana").onsubmit = function (event) {
 window.location.href = 'sanaresul.html';
 
 
-}
+};
 
