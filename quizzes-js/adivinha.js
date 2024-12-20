@@ -186,7 +186,7 @@ function loadQuestion() {
 function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex >= questions.length) {
-        alert(`Fim do Quiz ${nome}! Você acertou`  + score + "/" + questions.length);
+        alert(`Fim do Quiz! Você acertou `  + score + "/" + questions.length);
         currentQuestionIndex = 0;  // Reinicia o quiz
         score = 0;  // Reinicia a pontuação
     }
