@@ -2,13 +2,13 @@
 <img src=".github/preview.png" alt="Demonstração do projeto" width="100%"/>
 </p>
 
-💻 Projeto
+## 💻 Projeto
 Esse é um projeto Web Responsivo de Quizzes do Twice.
 
-🚀 Tecnologias
+## 🚀 Tecnologias
 Esse projeto foi feito por mim durante meus estudos de Javascript, as tecnologias utilizadas foram:
 
-HTML
-CSS
-Javascript
-Git e Github
+- HTML
+- CSS
+- Javascript
+- Git e Github
