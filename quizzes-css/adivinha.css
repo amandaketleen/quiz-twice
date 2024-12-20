@@ -41,7 +41,7 @@ header {
 }
 
 button {
-    color: #000000;
+   
     padding: 20px 50px;
     margin: 10px 0;
     font-size: 18px;
@@ -120,6 +120,7 @@ button:hover {
     }
 
     button {
+        color: black;
         font-size: 16px; /* Ajusta o tamanho da fonte dos botões */
         padding: 15px 30px;
     }
@@ -139,6 +140,8 @@ button:hover {
     }
 
     button {
+
+        color: black;
         width: 80%;
     }
 
@@ -172,6 +175,7 @@ button:hover {
    
 
     button {
+        color: black;
         width: 70%;
     }
 
@@ -208,6 +212,7 @@ button:hover {
     }
 
     button {
+        color: black;
         font-size: 14px;
         width: 70%;
     }
