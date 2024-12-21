@@ -2,6 +2,7 @@
 <img src=".github/preview.png" alt="Demonstração do projeto" width="100%"/>
 </p>
 
+
 ## 💻 Projeto
 Esse é um projeto Web Responsivo de Quizzes do Twice.
 
